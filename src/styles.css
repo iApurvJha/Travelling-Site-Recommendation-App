@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+:root {
+  --primary-color: #c026d3;
+}
+.App {
+  text-align: center;
+  margin: auto;
+}
+body {
+  background-color: #99f6e4;
+}
+* {
+  font-family: "Lobster", cursive;
+}
+.input {
+  caret-color: transparent;
+  text-align: center;
+  width: 5.5rem;
+  height: 2rem;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: bold;
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.input:hover {
+  color: var(--primary-color);
+  background-color: black;
+}
+.javascript {
+  display: inline;
+  padding: 0.5rem;
+}
+.fiction {
+  display: inline;
+  padding: 0.5rem;
+}
+.business {
+  display: inline;
+  padding: 0.5rem;
+}
+
+hr {
+  margin-top: 2rem;
+  height: 2px;
+  width: 25rem;
+  background: black;
+}
+
+.list1 {
+  background-color: lightgray;
+  border: 0px;
+  margin-top: 2.5rem;
+  width: 18rem;
+  height: 2.5rem;
+  /* border-radius: 5px; */
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+}
+.list2 {
+  background-color: lightgray;
+  border: 0px;
+  width: 7rem;
+  height: 2.5rem;
+  /* border-radius: 5px; */
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+.des {
+  background-color: lightgray;
+  border: 0px;
+  width: 11rem;
+  height: 2.5rem;
+  /* border-radius: 5px; */
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+}
